@@ -1,0 +1,67 @@
+body {
+    background-color: lightgray;
+}
+
+h1{
+    height: 25px;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    /* Para centralizar o form*/
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas*/
+    padding: 1em;
+    border: 5px solid #ccc;
+    border-radius: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
+input {
+    font: 1em sans-serif;
+    /*Mesmo tamanho para os campos*/
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*Harmonizar o look e feel das bordas*/
+    border: 1px solid #999;
+    padding: 7px 10px;
+    margin: 8px 0;
+}
+
+.button{
+    padding-left: 50px;
+}
+
+button {
+    margin-left: .5em;
+    width: 15%;
+    padding: 10px 10px;
+    margin: 8px 73%;
+    cursor: pointer;
+}
+
+a:hover {
+    color:blue;
+      
+}
+
+a:link {
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
